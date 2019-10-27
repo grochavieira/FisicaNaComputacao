@@ -1,0 +1,30 @@
+
+div#corpo table
+{
+	font-family: "Segoe UI", sans-serif;
+	font-size: 25px;
+}
+
+td.nome
+{
+	background-color: rgba(255,171,64,0.9);
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+td.ra
+{
+	background-color: rgba(26,38,61,0.9);
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.texto
+{
+	font-size: 20px;
+	text-align: justify;
+}

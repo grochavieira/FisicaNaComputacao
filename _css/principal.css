@@ -1,0 +1,142 @@
+@font-face {
+     font-family: bungee-shade-regular;
+     src: url('../_fonts/bungee-shade-regular.ttf');
+}
+
+body{
+
+	font-family: "Segoe UI", sans-serif;
+	color: black;
+	background-image: url("../_imagens/fundo.jpg");
+	background-size: 100%;
+	background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#titulo{
+	width: 90%;
+}
+
+div#barra{
+	width: 90%;
+	border-radius: 20px;
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+}
+
+
+div#cabeca{
+	width: 90%;
+}
+
+div#cabeca table a{
+	font-family: "bungee-shade-regular", sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	margin: 15px;
+}
+/*#1a263d
+rgba(26,38,61,0.9)*/
+div#total{
+	width: 90%;
+	background-color: rgba(0,80,80,0.7);
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+	padding-bottom: 5px;
+}
+
+div#corpo{
+	width: 80%;
+	
+}
+
+div#rodape{
+	font-size: 20px;
+	width: 95%;
+	font-family: "bungee-shade-regular", sans-serif;
+	padding-top: 5px;
+}
+
+div#pe{
+	width: 95%;
+}
+#titulo{
+	font-family: "bungee-shade-regular", sans-serif;
+	font-size: 23px;
+	margin:0px;
+	padding: 0px;
+}
+#titulo2
+{
+	font-size: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.imgb
+{
+	border-bottom-width: 5px;
+	border-color: white;
+	border-bottom-style: solid;
+}
+
+.legenda{
+	text-align: center;
+	font-size: 20px;
+	font-family: "bungee-shade-regular", sans-serif;
+}
+
+div.imglegenda1
+{
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	width: 30%;
+	background-color: white;
+}
+
+div.imglegenda
+{
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	background-color: white;
+}
+
+div.imglegenda2
+{
+	background-color: white;
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	width: 80%;
+}
+
+div.imglegenda3
+{
+	background-color: white;
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	width: 50%;
+}
+
+div.imglegenda4
+{
+	background-color: white;
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	width: 40%;
+}

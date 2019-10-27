@@ -1,0 +1,188 @@
+<DOCTYPE html!>
+
+<html>
+
+	<head>
+	<meta charset="utf-8"/>
+	<title> Física na Ciência da Computação - Qubit</title>
+	<link rel="stylesheet" type="text/css" href="_css/principal.css">
+	<link rel ="stylesheet" type="text/css" href ="_css/explicacao.css">
+	
+	</head>
+
+	<body>
+	<center>
+		<div id="total">
+
+			<div id="titulo">
+				<p id="titulo2"><b>-- QUBIT --</b><p>
+				<img src="_imagens/Qbi.png" height="26.2%" width="27.911%">
+				<p id="titulo"><b>-- Física na Ciência da Computação --</b><p>
+				<div id="barra"> </div>
+			</div>
+
+
+		<div id="cabeca">
+		
+		<table>
+
+			<tr>
+		
+				<td><a href="index.html">Home</a></td>
+				<td><a href="explicacao.html"><b>Explicação</b></a></td>				
+				<td><a href="questionario.html">Questionário</a></td>
+				<td><a href="desenvolvedores.html">Desenvolvedores</a></td>		
+
+			</tr>
+
+		</table>
+		<div id="barra"> </div>
+	
+		</div>
+	
+
+		<div id="corpo">
+		
+		<h1 class="titulo">O que é Qubit?</h1>
+		<p class="texto">De acordo com as pesquisas feitas na FAPESP, o qubit é o análogo quântico do bit clássico,
+		definido como a menor unidade em que a informação pode ser codificada, armazenada e transmitida
+		nos computadores atuais e nos sistemas de telecomunicações, como fibras ópticas ou redes sem fio.
+		Há, no entanto, diferenças significativas entre os dois conceitos.</p>
+		
+		<p class="texto">Num dado momento, um bit clássico, também denominado digito binário, só pode se encontrar em 
+		apenas um de dois valores ou estados possíveis: 0 ou 1, por exemplo. Nos computadores de hoje em
+		dia o 0 é representado pela interrupção da voltagem num circuito(estado off) e o 1 pela liberação
+		da corrente(estado on). Um qubit é mais do que isso. Ele pode, simultaneamente, representar os valores 
+		equivalentes a 0 e  1.</p>
+		
+		<p class="texto">Pode estar numa suporposição de estados, uma estranha propriedades quântica que potencializa
+		a realização de cálculos em paralelo. A superposição de estados é uma capacidade típica dos sistemas quânticos
+		de se comportar concomitantemente como partícula e ondas. Por isto o qubit possui quatro estados que são manifestados
+		de acordo com o movimento da partícula, que pode mover-se no sentido horário, sentido anti-horário, ou num terceiro estado,
+		onde os elétrons do átomo movem-se simultâneamente nas duas direções, totalizando quatro possibilidades.</p>
+		
+		<div class = "imglegenda">
+		<img class="imgb" src="_imagens/ex1qubit.png" width="100%" height="70%">
+		<p class = "legenda"> <b>Superposição</b> </p>
+		</div>
+		
+		
+		<p class="texto">Um modo de exemplificar o porque isto é util é vendo que embora 1 bit equivale a 1 qubit e armazena uma única informação,
+		2 bits juntos armazenam duas informações enquanto 2 qubits armazenariam 4 informações diferentes e do mesmo modo 3 bits armazenam 3 informações 
+		e 3 qubits armazenam 8 informações. Na verdade o calculo de capacidade de bits é igual à soma direta deles (1 + 1 + 1 + ... = n), enquanto o do 
+		qubit seria (2 x 2 x 2 ... = 2^n), mostrando que cada bit adiciona uma única informação ao conjunto, enquanto um qubit aumenta exponencialmente
+		a capacidade de informações que pode guardar, como é possível ver na tabela abaixo:</p>
+		
+		<table>
+
+				<tr><b><span class="qbit">Conversão de Qubits para Bits</span></b></tr>		
+				<tr><td class ="nome">1 qubit</td><td class ="ra">1 bit</td></tr>
+				<tr><td class ="nome">2 qubits</td><td class ="ra">4 bits</td></tr>	
+				<tr><td class ="nome">3 qubits</td><td class ="ra">8 bits</td></tr>	
+				<tr><td class ="nome">4 qubits</td><td class ="ra">16 bits</td></tr>	
+				<tr><td class ="nome">5 qubits</td><td class ="ra">32 bits</td></tr>	
+				<tr><td class ="nome">6 qubits</td><td class ="ra">64 bits</td></tr>	
+				<tr><td class ="nome">7 qubits</td><td class ="ra">128 bits</td></tr>	
+				<tr><td class ="nome">8 qubits</td><td class ="ra">256 bits</td></tr>	
+				<tr><td class ="nome">9 qubits</td><td class ="ra">512 bits</td></tr>	
+				<tr><td class ="nome">10 qubits</td><td class ="ra">1.024 bits</td></tr>	
+				<tr><td class ="nome">15 qubits</td><td class ="ra">32.768 bits</td></tr>	
+				<tr><td class ="nome">20 qubits</td><td class ="ra">1.048.576 bits</td></tr>	
+				<tr><td class ="nome">30 qubits</td><td class ="ra">107.373.568 bits</td></tr>	
+				<tr><td class ="nome">40 qubits</td><td class ="ra">109.950.533.632 bits</td></tr>	
+				
+		</table>
+		
+		
+		<p class="texto">Porém é importante saber que na realidade os qubits têm, teoricamente, capacidades ilimitadas de armazenamento. 
+		Para exemplificar esse motivo através de uma fácil compreensão, é possível dizer que o qubit consegue salvar uma informação dentro
+		de um átomo, na qual a posição dessa informação estaria num determinado ângulo, e sabendo disso, vemos que os qubits guardam as 
+		informações
+		em certas posições dos seus ângulos, agora se existem infinitos ângulos existem também infinitas possibilidades para salvar as informações,
+		desde que exista uma precisão capaz de diferenciar estes ângulos.
+		</p>
+		
+		<h1 class="titulo">Utilização do Qubit</h1>
+		
+		<p class="texto">E com isto chegamos a única possibilidade, por agora, de utilização do qubit, que seria o computador quântico (um computador que só usaria qubits e com isto
+		possuindo um potencial ilimitado de capacidade de informação), algo que na realidade ainda não existe de fato porque a tecnologia se encontra
+		em um estado inicial de desenvolvimento, entretanto ela já apresenta protótipos que manipulam informações quânticas em laboratórios de pesquisa,
+		porém, os computadores são capazes de lidar com poucos qubits simultaneamente e ainda assim apresentam problemas como a sua baixa precisão, além disso,
+		sob o ponto de vista quântico, as suas gigantescas dimensões o tornam quase inviável. </p>
+		
+		<p class="texto">Contudo, através dos protótipos já conseguimos visualizar as bases que serão utilizadas para a criação do primeiro computador quântico, 
+		na qual o processador, o “cérebro” da máquina, não será formado por chips, como acontece nos modelos comuns, mas por átomos que interagem entre si para
+		interpretar as informações e realizar cálculos. </p>
+		
+		<p class="texto">Também vemos que ele não poderá utilizar o emaranhamento ou entrelaçamento quântico, fenômeno que aumentaria exponencialmente a 
+		capacidade de processamento de dados. Átomos descritos como emaranhados se encontram tão fortemente ligados entre si que são capazes de
+		trocar informações independentemente de estarem lado a lado ou a milhares de quilômetros de distância, no entanto, apesar de poderoso,
+		o entrelaçamento não vai será utilizado por ser frágil e apenas se mantém em situações especiais, em sistemas extremamente controlados,
+		que não interagem com o ambiente externo. </p>
+		
+		<div class = "imglegenda2">
+		<img class="imgb" src="_imagens/emara.jpg" width="100%" height="60%">
+		<p class = "legenda"> <b>Emaranhamento Quântico</b> </p>
+		</div>
+		
+		<p class="texto">Entretanto, como substituto será utilizado à discórdia, que além de conseguir o efeito do emaranhamento, poderá conservar
+		suas propriedades quânticas à temperatura ambiente, em sistemas macroscópicos, e em situações em que existe ruído, que é visto como
+		a influência do meio externo no sistema.</p>
+		
+		<p class="texto">De todos esses protótipos, os que mais chamam a atenção foi o D-Wave One, que foi o primeiro computador quântico, 
+		ele faz cálculos explorando as propriedades quânticas de um processador com 128 qubits, implementados por um conjunto de anéis
+		supercondutores de corrente mantidos a 30 milikelvin, e com temperatura perto do zero absoluto, o seu processador mede uns poucos
+		centímetros e fica protegido das interferências do meio externo por estar abrigado em um compartimento fechado com o dobro da altura
+		de um homem e 10 metros quadrados de área.   </p>
+		
+		<div class = "imglegenda3">
+		<img class="imgb" src="_imagens/d_wave.jpg" width="100%" height="60%">
+		<p class = "legenda"> <b>D-Wave One</b> </p>
+		</div>
+		
+		<p class="texto">E o "IonQ " que é considerado o computador quântico mais poderoso do mundo, tanto na ficha técnica como em testes
+		reais de desempenho. Sendo que possui só 79 qubits, um número muito menor em comparação a outros computadores, e o motivo de ser o 
+		mais potente é sua alta precisão. A máquina chega a 99,97% de precisão para um único qubit, enquanto o recordista anterior chegava 
+		a 99,5%, e 99,3% para o uso de dois qubits, valor máximo até então de 95%. </p>
+		
+		<div class = "imglegenda3">
+		<img class="imgb" src="_imagens/ionQ.jpg" width="100%" height="60%">
+		<p class = "legenda"> <b>IonQ</b> </p>
+		</div>
+		
+		<p class="texto">E com isto vemos o quanto esta tecnologia se mantém, ainda, em um estado inicial de desenvolvimento, onde as teorias
+		para a sua criação passaram a ser estudadas recentemente, e o pouco de avanço que já possuímos varia de empresa para empresa, tanto que
+		umas acabam usando mais qubits e outras menos, mas no final todas acabam utilizando somente um pedaço do seu potencial. Assim sendo, o
+		desenvolvimento deste tipo de tecnologia ainda levara alguns anos até que possa realmente revolucionar o mundo da computação.   </p>
+		
+		<h1 class="titulo">Referências Bibliográficas</h1>
+		
+		<p class="texto">https://www.tecmundo.com.br/computacao-quantica/2627-o-que-e-qubit-o-bit-quantico-.htm</p>
+		<p class="texto">https://www.techtudo.com.br/noticias/2019/01/conheca-o-ionq-computador-quantico-mais-poderoso-do-mundo.ghtml</p>
+		<p class="texto">AGUILAR. G.H. et al. Experimental estimate of a classicality witness via a single measurement.
+		Physical Review Letters. v. 108, n. 6, p. 063601-1/ 063601-4. 10 fev. 2012. </p>
+		<p class="texto">AUCCAISE, R. et al. Environment-induced sudden transition in quantum discord dynamics.
+		Physical Review Letters. v. 107, n. 14, p. 140403-1/ 140403-5. 30 set. 2011. </p>
+		<p class="texto">AUCCAISE, R. et al. Experimentally witnessing the quantumness of correlations. 
+		Physical Review Letters. v. 107, n. 7, p. 070501-1/ 070501-5. 12 ago. 2011.</p>
+		<p class="texto">Instituto Nacional de Ciência e Tecnologia de Informação Quântica nº 2008/57856-6 </p>
+		<p class="texto">Informação quântica e decoerência nº 2005/04471-1</p>
+		
+
+		</div>
+		<div id="rodape">
+		<div id="pe">
+		<div id="barra"> </div>
+		<p><b>&copy; 2019 by FEI<b></p>
+
+		</div>
+
+		</div>
+		</div>
+
+
+
+	</center>
+	</body>
+
+</html>

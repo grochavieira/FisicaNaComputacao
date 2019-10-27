@@ -1,0 +1,49 @@
+@font-face {
+     font-family: bungee-shade-regular;
+     src: url('../_fonts/bungee-shade-regular.ttf');
+}
+
+.texto
+{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.titulo
+{
+	font-family: "bungee-shade-regular", sans-serif;
+}
+
+
+div#corpo table
+{
+	font-size: 25px;
+}
+
+.qbit
+{
+	font-size: 25px;
+	background-color: rgba(61,61,61,0.9);
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+td.nome
+{
+	background-color: rgba(255,171,64,0.9);
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+td.ra
+{
+	background-color: rgba(26,38,61,0.9);
+	border-width: 3px;
+	border-color: black;
+	border-style: solid;
+	border-radius: 5px;
+}

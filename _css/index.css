@@ -1,0 +1,15 @@
+@font-face {
+     font-family: bungee-shade-regular;
+     src: url('../_fonts/bungee-shade-regular.ttf');
+}
+
+.texto
+{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.titulo
+{
+	font-family: "bungee-shade-regular", sans-serif;
+}
